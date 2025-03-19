@@ -1,0 +1,1 @@
+/opt/cuda/bin/nvcc -forward-unknown-to-host-compiler  -g -G -O3 --use_fast_math "--generate-code=arch=compute_50,code=[compute_50,sm_50]" -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink --options-file CMakeFiles/blur_project.dir/deviceObjects1.rsp -o CMakeFiles/blur_project.dir/cmake_device_link.o --options-file CMakeFiles/blur_project.dir/deviceLinkLibs.rsp

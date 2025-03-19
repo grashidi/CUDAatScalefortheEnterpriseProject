@@ -1,1 +1,0 @@
-  -L"/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1"  /opt/cuda/lib64/libcudart_static.a -ldl /usr/lib/librt.a  -lnppc -lnppial -lnppig -lnppif -lcudart 

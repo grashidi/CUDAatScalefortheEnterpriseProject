@@ -11,7 +11,7 @@ set(CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTOR /opt/cuda/include)
 set(CMAKE_CUDA_RUNTIME_LIBRARY /opt/cuda/lib/libcudart.so)
 
 # Enable CUDA debug information and optimization flags
-set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -g -G -O3 --use_fast_math")
+set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -O3 --use_fast_math")
 
 # Set CUDA file extensions
 set(CMAKE_CUDA_SOURCE_PROPERTY_FORMAT OBJ)

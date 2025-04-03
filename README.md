@@ -7,7 +7,7 @@ Compares the execution time for blurring images using NPP and a Cuda kernel.
 2. Create a build directory and change into it
 3. Adjust the follwing lines in the CMakeLists.txt to the correct paths of yout system and set the compute capability of your Cuda device
 ```
-et(CMAKE_CUDA_COMPILER path/to/nvcc)
+set(CMAKE_CUDA_COMPILER path/to/nvcc)
 set(CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTOR path/to/cuda/include)
 set(CMAKE_CUDA_RUNTIME_LIBRARY path/to/libcudart.so)
 
